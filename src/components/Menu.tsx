@@ -6,10 +6,10 @@ type MenuItem = {
 };
 
 const menuItems: MenuItem[] = [
-  { name: "Avocado Smoothie", price: "35K", desc: "Creamy blend of organic avocado & honey.", img: "../assets/img/avocado-smoothie.jpeg" },
-  { name: "Vegan Buddha Bowl", price: "55K", desc: "Rice, chickpeas, fresh veggies & tahini.", img: "../assets/img/vegan-budha.jpeg" },
-  { name: "Organic Coffee", price: "25K", desc: "Locally roasted beans brewed with love.", img: "../assets/img/coffee.jpeg" },
-  { name: "Quinoa Salad", price: "45K", desc: "Nutritious mix of quinoa, greens & citrus.", img: "../assets/img/quinoa-salad.jpeg" },
+  { name: "Avocado Smoothie", price: "35K", desc: "Creamy blend of organic avocado & honey.", img: "/assets/img/avocado-smoothie.jpeg" },
+  { name: "Vegan Buddha Bowl", price: "55K", desc: "Rice, chickpeas, fresh veggies & tahini.", img: "/assets/img/vegan-budha.jpeg" },
+  { name: "Organic Coffee", price: "25K", desc: "Locally roasted beans brewed with love.", img: "/assets/img/coffee.jpeg" },
+  { name: "Quinoa Salad", price: "45K", desc: "Nutritious mix of quinoa, greens & citrus.", img: "/assets/img/quinoa-salad.jpeg" },
 ];
 
 const Menu: React.FC = () => {
