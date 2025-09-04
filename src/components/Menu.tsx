@@ -1,3 +1,7 @@
+import img1 from "../assets/img/avocado-smoothie.jpeg";
+import img2 from "../assets/img/vegan-budha.jpeg";
+import img3 from "../assets/img/coffee.jpeg";
+import img4 from "../assets/img/quinoa-salad.jpeg";
 type MenuItem = {
   name: string;
   price: string;
@@ -6,10 +10,10 @@ type MenuItem = {
 };
 
 const menuItems: MenuItem[] = [
-  { name: "Avocado Smoothie", price: "35K", desc: "Creamy blend of organic avocado & honey.", img: "/assets/img/avocado-smoothie.jpeg" },
-  { name: "Vegan Buddha Bowl", price: "55K", desc: "Rice, chickpeas, fresh veggies & tahini.", img: "/assets/img/vegan-budha.jpeg" },
-  { name: "Organic Coffee", price: "25K", desc: "Locally roasted beans brewed with love.", img: "/assets/img/coffee.jpeg" },
-  { name: "Quinoa Salad", price: "45K", desc: "Nutritious mix of quinoa, greens & citrus.", img: "/assets/img/quinoa-salad.jpeg" },
+  { name: "Avocado Smoothie", price: "35K", desc: "Creamy blend of organic avocado & honey.", img: img1 },
+  { name: "Vegan Buddha Bowl", price: "55K", desc: "Rice, chickpeas, fresh veggies & tahini.", img: img2 },
+  { name: "Organic Coffee", price: "25K", desc: "Locally roasted beans brewed with love.", img: img3 },
+  { name: "Quinoa Salad", price: "45K", desc: "Nutritious mix of quinoa, greens & citrus.", img: img4 },
 ];
 
 const Menu: React.FC = () => {
